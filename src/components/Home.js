@@ -9,7 +9,7 @@ const HomeContainer = styled.section`
   color: #00ff00;
 `;
 
-function Home({ language }) {
+function Home({ language = "EN"}) {
   const content = {
     EN: { name: "Changzhou Long", desc: "PhD Student at University of Tsukuba | Quantum Computing and AI Enthusiast" },
     JP: { name: "龍 昶周", desc: "筑波大学博士課程学生 | 量子コンピューティング・AI技術ファン" },
